@@ -1,8 +1,12 @@
+import { FooterStyle } from '../css/FooterStyle';
+
 const Footer=()=>{
     return(
-        <>
-            <h5>@2024- todos os direitos reservados</h5>
-        </>
+        <FooterStyle>
+            <div className="footer">
+                <h3 id="direitos">@2024- todos os direitos reservados.</h3>
+            </div>
+        </FooterStyle>
     )
 }
 
