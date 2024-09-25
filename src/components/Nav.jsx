@@ -15,5 +15,4 @@ const Nav=()=>{
         </NavStyle>
     )
 }
-
 export default Nav
