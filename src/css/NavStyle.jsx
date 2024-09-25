@@ -12,11 +12,11 @@ export const NavStyle =styled.section `
     z-index: 1000;
 }
 
-#logo-nav {
+/* #logo-nav {
     width: 50px;
     height: 50px;
     margin-left: 0.5%;
-}
+} */
 
 .nav-links {
     display: flex;
