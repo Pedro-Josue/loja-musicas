@@ -2,15 +2,15 @@ import styled from "styled-components";
 
 export const HomeStyle = styled.section`
 
-.home h1{
+.home h1 {
     margin-top: 7%;
     font-size: 400%;
 }
-.home h3{
+.home h3 {
     font-size: 150%;
     margin-bottom: 7%;
 }
-.home{
+.home {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -23,9 +23,15 @@ export const HomeStyle = styled.section`
     z-index: 1;
     font-family: 'Roboto', sans-serif;
 }
-.btn-home button{
+.btn-home {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+.btn-home button, 
+.btn-entrar { 
     border-radius: 15px;
-    border: 50px;
+    border: none;
     height: 40px;
     width: 200px;
     background-color: #334580;
@@ -33,11 +39,8 @@ export const HomeStyle = styled.section`
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
 }
-.btn-home{
-    display: flex;
-    justify-content: center;
-    gap: 8%;
-}
-
 `

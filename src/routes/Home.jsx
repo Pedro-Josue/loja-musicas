@@ -1,4 +1,5 @@
 import { HomeStyle } from "../css/HomeStyle"
+import { Link } from "react-router-dom"
 
 const Home=()=>{
     return(
@@ -8,7 +9,9 @@ const Home=()=>{
                 <h3>Descubra os melhores álbuns e playlists que vão embalar sua rotina!</h3>
                 <div className="btn-home">
                     <button>Assine agora</button>
-                    <button id="btn-entrar">Entrar</button>
+                    <Link to='/login' className="btn-entrar">
+                        Entrar
+                    </Link>
                 </div>
             </div>
         </HomeStyle>
