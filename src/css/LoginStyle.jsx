@@ -7,6 +7,7 @@ export const LoginStyled = styled.section`
     margin:0 auto;
     background-color: #1a1a4b;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 .container-login{
     width:100%;
@@ -72,9 +73,11 @@ export const LoginStyled = styled.section`
 }
 .text1{
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 .text2{
-    color: black;
+    color: #da8920;
+    font-family: 'Roboto', sans-serif;
 }
 
 img{
