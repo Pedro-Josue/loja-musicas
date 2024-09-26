@@ -1,5 +1,5 @@
-import { LoginStyled } from '../css/LoginStyle'
-import icone from '../assets/icone.svg'
+import { LoginStyled } from '../css/LoginStyle';
+import icone from '../assets/icone.svg';
 
 const Login=()=>{
     return(

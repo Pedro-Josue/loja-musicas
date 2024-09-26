@@ -5,6 +5,8 @@ export const LoginStyled = styled.section`
 .container{
     width:100%;
     margin:0 auto;
+    background-color: #1a1a4b;
+    color: white;
 }
 .container-login{
     width:100%;
@@ -54,26 +56,25 @@ export const LoginStyled = styled.section`
     justify-content:center;
 }
 .login-form-btn{
+    border: none;
     font-size:1rem;
     color:#fff;
-    background:#213550;
+    background-color: #334580;
     width:100%;
     height:50px;
     border-radius:15px;
-    transition: all 0.4s;
+    cursor: pointer;
 }
-.login-form-btn:hover{
-    background: #333;
-}
+
 .utils{
     margin-top: 20px;
     margin-bottom: 10px;
 }
 .text1{
-    color:#000;
+    color: white;
 }
 .text2{
-    color:green;
+    color: black;
 }
 
 img{
